@@ -1,8 +1,10 @@
 {
-    "compilerOptions": {
-        "outDir": "dist/js",
-        "target": "ES6",
-        "noEmitOnError": true // não vai gerar um arquivo .js enquanto o arquivo .ts estiver com problema
-    },
-    "include": ["app/**/*"]
+  "compilerOptions": {
+    "outDir": "dist/js",
+    "target": "ES6",
+    "moduleResolution": "Node10",
+    "noEmitOnError": true, // não vai gerar um arquivo .js enquanto o arquivo .ts estiver com problema
+    "noImplicitAny": true
+  },
+  "include": ["app/**/*"]
 }
